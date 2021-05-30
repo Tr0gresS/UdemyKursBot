@@ -35,7 +35,7 @@ def start(update, context):
             if kurs != son_kurs:
                 son_kurs = kurs
                 update.message.reply_text(son_kurs)
-                print(son_kurs)
+                
 
 
 def main():
