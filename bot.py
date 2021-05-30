@@ -39,7 +39,7 @@ def start(update, context):
 
 
 def main():
-    token = "1897185958:AAFpW2U3hCPosA-qBsw13P80yBZFPsZlEe0"
+    token = ""
     updater = Updater(token, use_context=True)
     komut = updater.dispatcher
     komut.add_handler(CommandHandler("start", start))
